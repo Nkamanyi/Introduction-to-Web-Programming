@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/basic.js"></script>
+    <title>Nkamanyi CV</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="main-menu">
+          <a href=".">Home</a>
+          <a href="https://github.com/Nkamanyi" target="_blank">Github</a>
+        </div>
+      </nav>
+      <h1>Curriculum Vitae</h1>
+    </header>
+
+    <main>
+      <p>Name: <strong>Nkamanyi Martin</strong></p>
+      <p>
+        Address:
+        <a
+          href="https://www.linkedin.com/in/data-analyst-data-scientist-machine-learning-model-validation/"
+          target="_blank"
+          ><em>linkedin</em></a
+        >
+      </p>
+      <img src="images/foto.jpg" alt="Me" />
+
+      <h2>Work history</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Organization</th>
+            <th>Years</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nordea Bank</td>
+            <td>2020</td>
+            <td>Data Analyst</td>
+          </tr>
+          <tr>
+            <td>Deliotte</td>
+            <td>2018</td>
+            <td>Data Data Analyst Intern</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Education</h2>
+      <p>Masters in Computer Science</p>
+      <p>Masters in Finance</p>
+      <p>Bachelors in Business Administration - Finance</p>
+
+      <h2>Language skills</h2>
+
+      <ol>
+        <li>English: native</li>
+        <li>French: professional</li>
+        <li>Finnish: intermediate</li>
+      </ol>
+
+      <h2>Other projects</h2>
+      <p>
+        <a href="https://www.youtube.com/channel/UCzAnEhSSTBMTBE-MiLxlIug"
+          >My github for projects</a
+        >
+      </p>
+
+      <h2>Leave a note</h2>
+      <!--<form action="" method="GET">-->
+      <fieldset>
+        <legend>Information:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" name="fname" id="fname" placeholder="First name" />
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Last name" />
+        <label for="age">Age:</label>
+        <input type="range" name="age" id="age" min="0" max="130" />
+      </fieldset>
+
+      <label for="mood">What's your mood:</label>
+      <select id="mood" name="mood">
+        <option value="perfect">Perfect</option>
+        <option value="ok">Ok</option>
+        <option value="bad">Bad</option>
+      </select>
+      <br />
+
+      <textarea
+        name="message"
+        id="message"
+        rows="10"
+        cols="30"
+        placeholder="Leave a note..."
+      ></textarea>
+
+      <!--<input type="submit" value="Submit">-->
+      <button id="add-note">Add note</button>
+      <button id="remove-note">Remove note</button>
+
+      <!--</form>-->
+      <div id="notes"></div>
+    </main>
+
+    <footer>
+      <p>This is the <span class="red">CV</span> of Nkamanyi Martin</p>
+    </footer>
+  </body>
+</html>
