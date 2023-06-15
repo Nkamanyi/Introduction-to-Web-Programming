@@ -1,5 +1,3 @@
-
-
 let button = document.getElementById("my-button");
 let heading = document.getElementById("my-heading");
 let button1 = document.getElementById("add-data");
